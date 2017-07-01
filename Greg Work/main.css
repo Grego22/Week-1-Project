@@ -1,0 +1,88 @@
+html{
+  font-family: Merriweather, Roboto;
+}
+
+body{
+  background-color: #f2f1e8;
+}
+header{
+  background-color: white;
+  height: 60px;
+  padding-top: none;
+  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+}
+
+.wrapper, .wrapper2 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#main-navigation {
+  display: flex;
+  padding: 2% 1%;
+  justify-content: center;
+  padding-top: 20px;
+  margin-right: 10px 30px;
+}
+
+nav a {
+  color: black;
+  margin: 0 20px;
+
+}
+
+blockquote{
+  border-left: 10px;
+}
+.founder{
+  border-left: 2px;
+  border-color: black;
+}
+
+.grow{
+  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/background-3.jpg");
+  height: 250px;
+  background-size: cover;
+  padding-top: 10em;
+}
+
+.textgrow{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.member{
+  float: right;
+  height: 5px;
+  width: 5px;
+}
+
+table{
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+table, th, tr, td{
+  font-weight: normal;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.feet{
+  padding-left: 15px;
+  padding-top: 20px;
+
+}
+footer{
+  background-color: #2B2F27;
+  height: 60px;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
