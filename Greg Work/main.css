@@ -4,6 +4,8 @@ html{
 
 body{
   background-color: #f2f1e8;
+  margin: 0;
+
 }
 header{
   background-color: white;
@@ -14,9 +16,9 @@ header{
 }
 
 .wrapper, .wrapper2 {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 40px;
 }
 
 #main-navigation {
@@ -33,17 +35,26 @@ nav a {
 
 }
 
+.compic {
+  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/birdhouse.jpg");
+  float: left;
+}
+
+.community {
+  clear: right;
+
+}
 blockquote{
   border-left: 10px;
 }
 .founder{
-  border-left: 2px;
-  border-color: black;
+  border-left: 2px solid #968774;
+
 }
 
 .grow{
   background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/background-3.jpg");
-  height: 250px;
+  height: 150px;
   background-size: cover;
   padding-top: 10em;
 }
@@ -63,14 +74,15 @@ blockquote{
 
 table{
   border-collapse: collapse;
-  display: flex;
-  justify-content: center;
+  width: 75%;
 }
-
-table, th, tr, td{
+th, tr, td{
   font-weight: normal;
   border: 2px solid black;
   text-align: center;
+}
+th, tr, td:nth-child(1){
+  background-color: #F2EADD
 }
 
 .feet{
@@ -85,4 +97,8 @@ footer{
   margin: 0;
   padding: 0;
 
+}
+.wrappernews{
+  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/background-3.jpg");
+  background-size: cover;
 }
