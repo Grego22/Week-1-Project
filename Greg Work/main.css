@@ -32,18 +32,13 @@ header{
 nav a {
   color: black;
   margin: 0 20px;
+  font-size: 22px;
 
 }
 
-.compic {
-  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/birdhouse.jpg");
-  float: left;
-}
 
-.community {
-  clear: right;
 
-}
+
 blockquote{
   border-left: 10px;
 }
@@ -81,7 +76,7 @@ th, tr, td{
   border: 2px solid black;
   text-align: center;
 }
-th, tr, td:nth-child(1){
+tr:nth-child(even){
   background-color: #F2EADD
 }
 
@@ -96,9 +91,56 @@ footer{
   color: white;
   margin: 0;
   padding: 0;
-
 }
-.wrappernews{
-  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/background-3.jpg");
-  background-size: cover;
+
+.bentcreek{
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.whereart{
+  text-align: center;
+  font-weight: 200;
+}
+.geet {
+  background-image: url("/Users/gjgarvilmac2/Desktop/Week 1 Project/optimized/background-2.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsie{
+  background-color: white;
+  width: 50%;
+  height: 45%;
+  position: absolute;
+}
+
+.stayup, .signup {
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.former input{
+  color: #968774;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 22px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  margin: 40px;
+  width: 650px;
+}
+.former button{
+  background-color: #968774;
+  color: white;
+  font-size: 18px;
+  border-style: none;
+  padding: 8px 20px;
 }
